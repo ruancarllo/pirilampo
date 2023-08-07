@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import * as SuperAgent from 'superagent';
 
 class ChatGPT {
   private endpoint = 'https://api.openai.com/v1/chat/completions';
@@ -10,7 +10,11 @@ class ChatGPT {
   }
 
   async answer(question: string): Promise<string> {
-    const data = {
+    const request = SuperAgent.post(this.endpoint);
+
+    request.set('Content-Type', 'application/json');
+    request.set('Authorization', `Bearer ${this.apiToken}`);
+    request.send({
       model: 'gpt-3.5-turbo',
       messages: [
         {
@@ -18,16 +22,11 @@ class ChatGPT {
           content: question
         }
       ]
-    };
-
-    const response = await Axios.post(this.endpoint, data, {
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${this.apiToken}`
-      }
     });
 
-    return String(response.data.choices[0].message.content);
+    const response = await request;
+
+    return String(response.body.choices[0].message.content);
   }
 }
 
