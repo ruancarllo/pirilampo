@@ -93,16 +93,23 @@ class DiscordBOT {
       const splittedAnswer = Utils.splitPhraseInParts(answer, DiscordBOT.MAX_ANSWER_LENGTH);
       splittedAnswer.forEach(async (answerPart) => await message.reply(answerPart));
     });
+
+    answerPromise.catch(async () => {
+      clearInterval(typingRefresher);
+
+      await message.reply('Serviço de inteligência artificial indisponível no momento!');
+    });
   }
 
   private async handleInteraction(interaction: Discord.Interaction) {
     if (!interaction.isChatInputCommand()) return;
 
-    const randomQuestion = await this.dependencies.vestractor.getRandomQuestion(interaction.commandName);
-
-    await interaction.reply({
-      files: [randomQuestion.imageUrl]
-    });
+    try {
+      const randomQuestion = await this.dependencies.vestractor.getRandomQuestion(interaction.commandName);
+      await interaction.reply({files: [randomQuestion.imageUrl]});
+    } catch {
+      await interaction.reply('Serviço de randomização de questões indisponível no momento!');
+    }
   }
 
   private async handlePseudoInteraction(message: Discord.Message) {
