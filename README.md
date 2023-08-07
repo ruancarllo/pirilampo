@@ -1,6 +1,6 @@
 # About
 
-This is a Brazilian 🇧🇷 educational bot for the [Discord](https://discord.com) network, capable of answering several questions from students through [ChatGPT](https://chat.openai.com), providing random and commented resolutions from the main entrance exams in the country coming from the [Curso Objetivo](https://www.curso-objetivo.br), and organize the handouts of the study platform [Plurall](https://plurall.net).
+This is a Brazilian educational bot for the [Discord](https://discord.com) network, capable of answering several questions from students through [ChatGPT](https://chat.openai.com), providing random and commented resolutions from the main entrance exams in the country coming from the [Curso Objetivo](https://www.curso-objetivo.br), and organize the handouts of the study platform [Plurall](https://plurall.net).
 
 <p align="center">
   <img src="./theme/pirilampo-icon-rounded.png" alt="Pirilampo bot image" width="250">
