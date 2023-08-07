@@ -2,7 +2,5 @@ node_modules/
 source/tokens.json
 
 .DS_Store
-.config/
-.upm/
 
 package-lock.json
