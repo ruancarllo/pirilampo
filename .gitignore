@@ -1,6 +1,8 @@
 node_modules/
-source/tokens.json
+package-lock.json
 
 .DS_Store
+.upm/
+.config/
 
-package-lock.json
+source/tokens.json

@@ -1,4 +1,4 @@
-import Axios from 'axios';
+import * as SuperAgent from 'superagent';
 import * as JsDOM from 'jsdom';
 
 type EntranceExam = {
@@ -122,9 +122,12 @@ class Vestractor {
 
 namespace Utils {
   export async function getDOM(url: string) {
-    let plainHtml = (await Axios.get(url)).data;
-    let webPage = new JsDOM.JSDOM(plainHtml);
-    let document = webPage.window.document;
+    const request = SuperAgent.get(url);
+    const response = await request;
+
+    const plainHtml = response.text;
+    const webPage = new JsDOM.JSDOM(plainHtml);
+    const document = webPage.window.document;
 
     return document;
   }
