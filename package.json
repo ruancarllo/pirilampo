@@ -1,0 +1,24 @@
+{
+  "name": "pirilampo",
+  "description": "A educational chatbot for the future",
+  "keywords": ["education", "chatbot"],
+
+  "author": "Ruan Carllo Silva",
+
+  "dependencies": {
+    "axios": "1.4.0",
+    "jsdom": "22.1.0",
+    "js-yaml": "4.1.0",
+    "discord.js": "14.12.1",
+    "ts-node": "10.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.4.7",
+    "@types/jsdom": "21.1.1",
+    "@types/js-yaml": "4.0.5"
+  },
+  "scripts": {
+    "register-commands": "ts-node source/main.ts --register-commands",
+    "initialize-client": "ts-node source/main.ts --initialize-client"
+  }
+}
