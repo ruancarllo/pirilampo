@@ -1,0 +1,306 @@
+embedInfo:
+  mainTitle: Biblioteca virtual do Plurall
+  platformHref: https://maestro.plurall.net/bookshelf
+  faviconUrl: https://play-lh.googleusercontent.com/BqtKSA5Pdy27CLR2RAjmMQ85jMHndXN5AyUEtMEea9ubMflwACdEv8OIk8yjQ5Ynb-c
+  accentColor: 7611610
+
+sections:
+  - Apostilas do 1° bimestre:
+    - Formação Geral Básica:
+      - Análise Linguística:
+          PDF: https://maestro.plurall.net/#/booksViewer/68623004-8920-4d46-af5a-bf82619197b9
+          HTML: null
+          spaceLine: false
+      - Literatura e Arte:
+          PDF: https://maestro.plurall.net/#/booksViewer/68623004-8920-4d46-af5a-bf82619197b9
+          HTML: null
+          spaceLine: true
+      - Língua Inglesa:
+          PDF: https://aps.plurall.net/resources/content/71a21d75-ac7e-26ba-557a-dcff243eb722.pdf
+          HTML: null
+          spaceLine: true
+      - Matemática A:
+          PDF: https://maestro.plurall.net/#/booksViewer/68623004-8920-4d46-af5a-bf82619197b9
+          HTML: null
+          spaceLine: false
+      - Matemática B:
+          PDF: https://maestro.plurall.net/#/booksViewer/68623004-8920-4d46-af5a-bf82619197b9
+          HTML: null
+          spaceLine: true
+      - História:
+          PDF: https://maestro.plurall.net/#/booksViewer/68623004-8920-4d46-af5a-bf82619197b9
+          HTML: https://biblioteca.plurall.net/livro/digital/dc387292-c53b-452c-8d4c-07791108aa80
+          spaceLine: false
+      - Geografia:
+          PDF: https://maestro.plurall.net/#/booksViewer/ea2cf6a6-8f52-49eb-97c9-dea6e79d346f
+          HTML: https://biblioteca.plurall.net/livro/digital/2f3eae8c-0be5-4934-8a45-b15110b9bb05
+          spaceLine: true
+      - Biologia A:
+          PDF: https://maestro.plurall.net/#/booksViewer/03c12454-a427-4b7f-a3fb-074777b92b4a
+          HTML: https://biblioteca.plurall.net/livro/digital/564b63a0-990d-4de8-aac7-40c78833b231
+          spaceLine: false
+      - Biologia B:
+          PDF: https://maestro.plurall.net/#/booksViewer/03c12454-a427-4b7f-a3fb-074777b92b4a
+          HTML: https://biblioteca.plurall.net/livro/digital/358019e9-b7ce-4fff-87ab-9ce28d6593a1
+          spaceLine: true
+      - Química A:
+          PDF: https://maestro.plurall.net/#/booksViewer/03c12454-a427-4b7f-a3fb-074777b92b4a
+          HTML: https://biblioteca.plurall.net/livro/digital/da2d771d-f2fa-4014-9d23-c79a5ea6c5fe
+          spaceLine: false
+      - Química B:
+          PDF: https://maestro.plurall.net/#/booksViewer/03c12454-a427-4b7f-a3fb-074777b92b4a
+          HTML: https://biblioteca.plurall.net/livro/digital/bc473824-406d-44fd-9a70-4a840df31810
+          spaceLine: true
+      - Física A:
+          PDF: https://maestro.plurall.net/#/booksViewer/03c12454-a427-4b7f-a3fb-074777b92b4a
+          HTML: https://biblioteca.plurall.net/livro/digital/2be1387c-d82a-497e-966c-7df498044ded
+          spaceLine: false
+      - Física B:
+          PDF: https://maestro.plurall.net/#/booksViewer/03c12454-a427-4b7f-a3fb-074777b92b4a
+          HTML: https://biblioteca.plurall.net/livro/digital/e32cbfcf-660b-4d9b-a5cc-dcabcbdc7466
+          spaceLine: true
+    - Itinerários Formativos:
+      - Análise e Produção Textual:
+          PDF: https://maestro.plurall.net/#/booksViewer/ae1f85f5-615a-441c-8de6-e39b6c5fb594
+          HTML: https://biblioteca.plurall.net/livro/digital/0f981b50-4384-4663-ac30-65b6a80d2a43
+          spaceLine: false
+      - EA Matemática:
+          PDF: https://maestro.plurall.net/#/booksViewer/243251ea-26be-4ebd-ad92-103b80bce371
+          HTML: https://biblioteca.plurall.net/livro/digital/0765b43e-13dd-4569-8ebd-a8c8acd52cc1
+          spaceLine: true
+      - História+:
+          PDF: null
+          HTML: https://biblioteca.plurall.net/livro/digital/5011a904-ee51-48a1-87fd-6d7a128754d1
+          spaceLine: false
+      - Geografia+:
+          PDF: https://maestro.plurall.net/#/booksViewer/f5ad2028-298f-46f5-a5f9-a9cc47f6413c
+          HTML: https://biblioteca.plurall.net/livro/digital/98cae07b-e55e-4348-8531-a09654b812d6
+          spaceLine: true
+      - Biologia+:
+          PDF: https://maestro.plurall.net/#/booksViewer/0f842e40-d499-458a-ba2e-49d903c0d4dd
+          HTML: https://biblioteca.plurall.net/livro/digital/cd4e7c2d-9a12-42cd-92c7-a37324188ff4
+          spaceLine: false
+      - Química+:
+          PDF: https://maestro.plurall.net/#/booksViewer/26a694c8-eec7-4122-afb1-a159b796e425
+          HTML: https://biblioteca.plurall.net/livro/digital/9b169d5a-37a0-4bab-aa74-5669094710d4
+          spaceLine: false
+      - Física+:
+          PDF: https://maestro.plurall.net/#/booksViewer/60699bc8-1e30-4f6d-89f5-ad3c342cd156
+          HTML: https://biblioteca.plurall.net/livro/digital/24c0d3d4-d855-4d71-a0a6-a88145df8d79
+          spaceLine: true
+    - Ciclo Acadêmico Básico:
+      - Prática de Argumentação:
+          PDF: https://maestro.plurall.net/#/booksViewer/0415ad6d-e725-4d53-8ea3-f1e1d0de6d06
+          HTML: https://biblioteca.plurall.net/livro/digital/13ed7fcc-2229-4794-b202-e1faf89f78d2
+          spaceLine: false
+      - Núcleo de Matemática:
+          PDF: https://maestro.plurall.net/#/booksViewer/0415ad6d-e725-4d53-8ea3-f1e1d0de6d06
+          HTML: https://biblioteca.plurall.net/livro/digital/20e34008-d903-4710-8a7b-e18c34af60eb
+          spaceLine: true
+    - Cursos Eletivos:
+      - Filosofia:
+          PDF: https://maestro.plurall.net/#/booksViewer/e123de76-c1cd-4236-af76-b6a385adf39c
+          HTML: https://biblioteca.plurall.net/livro/digital/5cd4d7fd-1f66-4581-9211-7344b16526b7
+          spaceLine: false
+      - Sociologia:
+          PDF: https://maestro.plurall.net/#/booksViewer/20d383af-60c7-4fb9-be91-59a46607ca40
+          HTML: https://biblioteca.plurall.net/livro/digital/aa46a20c-1a3d-4644-8609-3a8fe62671f8
+          spaceLine: false
+  - Apostilas do 2° bimestre:
+    - Formação Geral Básica:
+      - Análise Linguística:
+          PDF: https://maestro.plurall.net/#/booksViewer/d6f36705-432c-431f-a5fa-1197bdb05b56
+          HTML: null
+          spaceLine: false
+      - Literatura e Arte:
+          PDF: https://maestro.plurall.net/#/booksViewer/d6f36705-432c-431f-a5fa-1197bdb05b56
+          HTML: null
+          spaceLine: true
+      - Língua Inglesa:
+          PDF: https://aps.plurall.net/resources/content/71a21d75-ac7e-26ba-557a-dcff243eb722.pdf
+          HTML: null
+          spaceLine: true
+      - Matemática A:
+          PDF: https://maestro.plurall.net/#/booksViewer/d6f36705-432c-431f-a5fa-1197bdb05b56
+          HTML: null
+          spaceLine: false
+      - Matemática B:
+          PDF: https://maestro.plurall.net/#/booksViewer/d6f36705-432c-431f-a5fa-1197bdb05b56
+          HTML: null
+          spaceLine: true
+      - História:
+          PDF: https://maestro.plurall.net/#/booksViewer/265c6b77-2c70-499d-b250-6f3aec32849e
+          HTML: https://biblioteca.plurall.net/livro/digital/924b6eb6-39e7-4f92-bc02-36f276ed0f16
+          spaceLine: false
+      - Geografia:
+          PDF: https://maestro.plurall.net/#/booksViewer/265c6b77-2c70-499d-b250-6f3aec32849e
+          HTML: https://biblioteca.plurall.net/livro/digital/a76e39f7-8bb5-41bd-a5b1-d56bb4c8dacb
+          spaceLine: true
+      - Biologia A:
+          PDF: https://maestro.plurall.net/#/booksViewer/a420c637-3077-4da3-8087-c5bfb4d4410f
+          HTML: https://biblioteca.plurall.net/livro/digital/05ea5f73-6eca-4215-a02d-384f226701c9
+          spaceLine: false
+      - Biologia B:
+          PDF: https://maestro.plurall.net/#/booksViewer/a420c637-3077-4da3-8087-c5bfb4d4410f
+          HTML: https://biblioteca.plurall.net/livro/digital/22f514ab-d39a-4619-b017-9b8cbb5847e6
+          spaceLine: true
+      - Química A:
+          PDF: https://maestro.plurall.net/#/booksViewer/a420c637-3077-4da3-8087-c5bfb4d4410f
+          HTML: https://biblioteca.plurall.net/livro/digital/bd7e7879-ff91-49c1-b7d1-566e1ee501e7
+          spaceLine: false
+      - Química B:
+          PDF: https://maestro.plurall.net/#/booksViewer/a420c637-3077-4da3-8087-c5bfb4d4410f
+          HTML: https://biblioteca.plurall.net/livro/digital/3962a8ac-d65d-405e-8831-d413d946189c
+          spaceLine: true
+      - Física A:
+          PDF: https://maestro.plurall.net/#/booksViewer/a420c637-3077-4da3-8087-c5bfb4d4410f
+          HTML: https://biblioteca.plurall.net/livro/digital/e30a900d-9bc1-4109-95d7-fe3a021c8bf5
+          spaceLine: false
+      - Física B:
+          PDF: https://maestro.plurall.net/#/booksViewer/a420c637-3077-4da3-8087-c5bfb4d4410f
+          HTML: https://biblioteca.plurall.net/livro/digital/e62a64cc-3784-4715-a1eb-d5627781ba95
+          spaceLine: true
+    - Itinerários Formativos:
+      - Análise e Produção Textual:
+          PDF: https://maestro.plurall.net/#/booksViewer/c4b70418-c2d1-453b-8b8a-2251c99afe37
+          HTML: null
+          spaceLine: false
+      - EA Matemática:
+          PDF: https://maestro.plurall.net/#/booksViewer/b830a9e8-7a0b-4c3f-bb5a-7a6171bdfeec
+          HTML: null
+          spaceLine: true
+      - História+:
+          PDF: https://maestro.plurall.net/#/booksViewer/998a6acb-3d1e-49bd-98c0-42e8c23b6ba0
+          HTML: null
+          spaceLine: false
+      - Geografia+:
+          PDF: https://maestro.plurall.net/#/booksViewer/b5a15195-3bb4-4469-b7f1-d1e70fa63665
+          HTML: null
+          spaceLine: true
+      - Biologia+:
+          PDF: https://maestro.plurall.net/#/booksViewer/6a8a4a0e-774e-4829-8765-b2c9cbd4d1f3
+          HTML: null
+          spaceLine: false
+      - Química+:
+          PDF: https://maestro.plurall.net/#/booksViewer/1eec6de1-ca88-4f47-aa36-bc90edddda14
+          HTML: https://biblioteca.plurall.net/livro/digital/e9177984-0642-4d2c-8255-64857b39f3b8
+          spaceLine: false
+      - Física+:
+          PDF: https://maestro.plurall.net/#/booksViewer/e74d374a-719f-43d8-b4d4-dc6744f0db40
+          HTML: null
+          spaceLine: true
+    - Ciclo Acadêmico Básico:
+      - Prática de Argumentação:
+          PDF: https://maestro.plurall.net/#/booksViewer/d8dc204d-eba2-48b9-9ce4-541d2766cc04
+          HTML: https://biblioteca.plurall.net/livro/digital/9f49965e-3c31-42e3-a3d7-3b70af75e796
+          spaceLine: false
+      - Núcleo de Matemática:
+          PDF: https://maestro.plurall.net/#/booksViewer/d8dc204d-eba2-48b9-9ce4-541d2766cc04
+          HTML: https://biblioteca.plurall.net/livro/digital/e875eb9d-67fd-47d4-9116-2a88d4afb906
+          spaceLine: true
+    - Cursos Eletivos:
+      - Filosofia:
+          PDF: https://maestro.plurall.net/#/booksViewer/9e31b4cf-e0f4-4c1a-b662-fb8a15351338
+          HTML: https://biblioteca.plurall.net/livro/digital/5a832467-a233-4057-860b-b50c5eea8a25
+          spaceLine: false
+      - Sociologia:
+          PDF: https://maestro.plurall.net/#/booksViewer/1134cc85-926e-43f3-a9fc-1095c46b4d51
+          HTML: https://biblioteca.plurall.net/livro/digital/380d06de-e0fd-44cd-9ccc-3b992559a20f
+          spaceLine: false
+  - Apostilas do 3° bimestre:
+    - Formação Geral Básica:
+      - Análise Linguística:
+          PDF: https://maestro.plurall.net/booksViewer/1ed0fc99-05f2-4a9a-81ed-6026fe341adc
+          HTML: null
+          spaceLine: false
+      - Literatura e Arte:
+          PDF: https://maestro.plurall.net/booksViewer/1ed0fc99-05f2-4a9a-81ed-6026fe341adc
+          HTML: null
+          spaceLine: true
+      - Matemática A:
+          PDF: https://maestro.plurall.net/booksViewer/1ed0fc99-05f2-4a9a-81ed-6026fe341adc
+          HTML: null
+          spaceLine: false
+      - Matemática B:
+          PDF: https://maestro.plurall.net/booksViewer/1ed0fc99-05f2-4a9a-81ed-6026fe341adc
+          HTML: null
+          spaceLine: true
+      - História:
+          PDF: https://maestro.plurall.net/booksViewer/04cc671d-ab36-4caf-b83e-1a013b8bac12
+          HTML: https://biblioteca.plurall.net/livro/digital/ef4e800f-21ec-4532-8a69-1f85c46a6faa
+          spaceLine: false
+      - Geografia:
+          PDF: https://maestro.plurall.net/booksViewer/04cc671d-ab36-4caf-b83e-1a013b8bac12
+          HTML: https://biblioteca.plurall.net/livro/digital/83db53e0-7e0f-4446-ba67-3f2fa22faee0
+          spaceLine: true
+      - Biologia A:
+          PDF: https://maestro.plurall.net/booksViewer/e0890957-ba7e-4f88-9c21-b89c5f61e95d
+          HTML: https://biblioteca.plurall.net/livro/digital/ffc41a9f-f1ed-4232-b08a-61f490dbc24a
+          spaceLine: false
+      - Biologia B:
+          PDF: https://maestro.plurall.net/booksViewer/e0890957-ba7e-4f88-9c21-b89c5f61e95d
+          HTML: https://biblioteca.plurall.net/livro/digital/5de0a177-c9cf-47bc-9b93-e4f23b66604f
+          spaceLine: true
+      - Química A:
+          PDF: https://maestro.plurall.net/booksViewer/e0890957-ba7e-4f88-9c21-b89c5f61e95d
+          HTML: null
+          spaceLine: false
+      - Química B:
+          PDF: https://maestro.plurall.net/booksViewer/e0890957-ba7e-4f88-9c21-b89c5f61e95d
+          HTML: https://biblioteca.plurall.net/livro/digital/57e6c1f8-8549-4afd-8575-1ffff941cde1
+          spaceLine: true
+      - Física A:
+          PDF: https://maestro.plurall.net/booksViewer/e0890957-ba7e-4f88-9c21-b89c5f61e95d
+          HTML: https://biblioteca.plurall.net/livro/digital/37cf477b-9ccd-4f0e-9a04-abb4b3283333
+          spaceLine: false
+      - Física B:
+          PDF: https://maestro.plurall.net/booksViewer/e0890957-ba7e-4f88-9c21-b89c5f61e95d
+          HTML: https://biblioteca.plurall.net/livro/digital/989db0fc-2d34-443a-8a30-b7a90596beff
+          spaceLine: true
+    - Itinerários Formativos:
+      - Análise e Produção Textual:
+          PDF: https://maestro.plurall.net/booksViewer/175a9550-6bf3-4671-9647-f831c587f14e
+          HTML: https://biblioteca.plurall.net/livro/digital/33cb42ad-f389-40ec-99d6-5a5a753f4f09
+          spaceLine: false
+      - EA Matemática:
+          PDF: https://maestro.plurall.net/booksViewer/4b7c70e5-738e-45d4-864b-ead48d2f9530
+          HTML: https://biblioteca.plurall.net/livro/digital/326904dc-9e28-45c1-b988-c5203e48c511
+          spaceLine: true
+      - História+:
+          PDF: https://maestro.plurall.net//booksViewer/ea8802d3-8ea-4ad9-a3a1-14c064178a96
+          HTML: https://biblioteca.plurall.net/livro/digital/68c07cdd-c045-49d6-9383-c37662208105
+          spaceLine: false
+      - Geografia+:
+          PDF: https://maestro.plurall.net/booksViewer/a60dfc7e-6c1c-4674-bddc-40067e620680
+          HTML: https://biblioteca.plurall.net/livro/digital/e2f37d88-05fc-4454-ae0e-eacf1b55864a
+          spaceLine: true
+      - Biologia+:
+          PDF: https://maestro.plurall.net/booksViewer/1acf93b6-b6e0-4805-94e0-50c22afc9823
+          HTML: https://biblioteca.plurall.net/livro/digital/b6807f2a-0dbd-4cc0-bbfe-3964aadb4803
+          spaceLine: false
+      - Química+:
+          PDF: https://maestro.plurall.net/booksViewer/f67cbffd-22fb-486e-8ad2-0912bef7fd43
+          HTML: https://biblioteca.plurall.net/livro/digital/2060cae8-e044-453c-864d-0bde513be044
+          spaceLine: false
+      - Física+:
+          PDF: https://maestro.plurall.net/booksViewer/64b20aec-ee9d-47a3-a442-93ae6a703422
+          HTML: https://biblioteca.plurall.net/livro/digital/2060cae8-e044-453c-864d-0bde513be044
+          spaceLine: true
+    - Ciclo Acadêmico Básico:
+      - Prática de Argumentação:
+          PDF: null
+          HTML: https://biblioteca.plurall.net/livro/digital/530d8c71-481b-4b24-9d56-2eedf1ef0cca
+          spaceLine: false
+      - Núcleo de Matemática:
+          PDF: null
+          HTML: https://biblioteca.plurall.net/livro/digital/15664660-4c9e-413d-8459-9800235136c6
+          spaceLine: true
+    - Cursos Eletivos:
+      - Filosofia:
+          PDF: https://maestro.plurall.net/booksViewer/8d72f93f-4142-4e75-8a08-37a77757e022
+          HTML: https://biblioteca.plurall.net/livro/digital/bb5459c9-a475-4766-b357-35405b2f5940
+          spaceLine: false
+      - Sociologia:
+          PDF: https://maestro.plurall.net/booksViewer/3def311e-ac54-4a77-b26d-25bfb4c029fd
+          HTML: https://biblioteca.plurall.net/livro/digital/000ff034-8f67-4324-ac0d-8ddbd2d4da5e
+          spaceLine: false
