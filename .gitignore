@@ -5,4 +5,4 @@ package-lock.json
 .upm/
 .config/
 
-source/tokens.json
+.env
