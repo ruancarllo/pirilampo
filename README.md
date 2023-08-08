@@ -24,7 +24,7 @@ In the **General Information** section, you define the **App Icon** as the image
 Ilustração por "Liam Moore" de "Ouch!"
 ```
 
-Click the **Save Changes** button and go to the **Bot** section, found in the side menu. In this section, disable the **Public Bot** option and enable the **Presence Intent**, **Server Members Intent**, and **Message Content Intent** options. Get the application token from the **Reset Token** button, and place it in the [source/tokens.json](./source/tokens.json) file as `DISCORD_TOKEN`.
+Click the **Save Changes** button and go to the **Bot** section, found in the side menu. In this section, disable the **Public Bot** option and enable the **Presence Intent**, **Server Members Intent**, and **Message Content Intent** options. Get the application token from the **Reset Token** button, and place it in the [.env](./.env) file as `DISCORD_TOKEN`.
 
 Click once more on **Save Changes** and go to **OAuth2** in the **URL Generator** subsection. In this subsection, enable the **bot** option in the **Scopes** field, and the **Read Messages/View Channels**, **Send Messages**, **Embed Links** and **Attach Files**, **Read Message History** options in the **Bot field Permissions**.
 
@@ -36,7 +36,7 @@ It is advisable to leave the name of the bot in green. To do so, enter the serve
 
 ## OpenAI ChatGPT
 
-Access the [OpenAI API Keys Center](https://platform.openai.com/account/api-keys) and click the **Create new secret key** button to create the token that you must put in [source/tokens.json](./source/tokens.json) as `OPENAI_TOKEN`.
+Access the [OpenAI API Keys Center](https://platform.openai.com/account/api-keys) and click the **Create new secret key** button to create the token that you must put in [.env](./.env) as `OPENAI_TOKEN`.
 
 ## Plurall bookshelf
 
