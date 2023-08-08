@@ -3,7 +3,7 @@
 This is a Brazilian educational bot for the [Discord](https://discord.com) network, capable of answering several questions from students through [ChatGPT](https://chat.openai.com), providing random and commented resolutions from the main entrance exams in the country coming from the [Curso Objetivo](https://www.curso-objetivo.br), and organize the handouts of the study platform [Plurall](https://plurall.net).
 
 <p align="center">
-  <img src="./theme/pirilampo-icon-rounded.png" alt="Pirilampo bot image" width="250">
+  <img src="./source/images/pirilampo-icon-rounded.png" alt="Pirilampo bot image" width="250">
 </p>
 
 # Setup
@@ -14,7 +14,7 @@ Here you will find a detailed walkthrough on how to sync this project with [Disc
 
 To configure this application, go to the [Dicord Developer Portal Applications](https://discord.com/developers/applications), click the **New Application** button, type the name "Pirilampo", accept the terms and click **Create**.
 
-In the **General Information** section, you define the **App Icon** as the image available in [theme/priilampo-icon.jpg](./theme/pirilampo-icon.jpg), the **Tags** as "Education" and "ChatBOT" , and the **Description** with the following words:
+In the **General Information** section, you define the **App Icon** as the image available in [source/images/priilampo-icon.jpg](./source/images/pirilampo-icon.jpg), the **Tags** as "Education" and "ChatBOT" , and the **Description** with the following words:
 
 ```txt
 🧬 Inteligência artificial do Grupo Paradoxo
