@@ -1,0 +1,15 @@
+run = "npm run initialize-client"
+
+hidden = [".git", ".upm", ".config"]
+
+[packager]
+language = "nodejs"
+
+[nix]
+channel = "stable-22_11"
+
+[languages.typescript]
+pattern = "**/{*.ts,*.js,*.tsx,*.jsx,*.json}"
+
+[languages.typescript.languageServer]
+start = "typescript-language-server --stdio"
