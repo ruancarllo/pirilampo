@@ -34,6 +34,10 @@ This is possible as long as the bot has, in the desired channels, the following 
 
 It is advisable to leave the name of the bot in green. To do so, enter the server's initial menu, click on its name and go to **Server Settings** and **Roles**. You can also reset the bot's job title to something like "Robô". Don't forget to click **Save Changes** after that.
 
+## Discord trusted channels
+
+Put your trusted Discord channels ids in the [.env](./.env) `DISCORD_TRUSTED_CHANNEL_IDS` variable, separated by commas. They an be found in the end of a Discord channel URL, as the last path segment.
+
 ## OpenAI ChatGPT
 
 Access the [OpenAI API Keys Center](https://platform.openai.com/account/api-keys) and click the **Create new secret key** button to create the token that you must put in [.env](./.env) as `OPENAI_TOKEN`.
