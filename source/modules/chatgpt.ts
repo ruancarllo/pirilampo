@@ -9,24 +9,30 @@ class ChatGPT {
     this.apiToken = apiToken;
   }
 
-  async answer(question: string): Promise<string> {
-    const request = SuperAgent.post(this.endpoint);
+  async answer(question: string): Promise<string> | undefined {
+    try {
+      const request = SuperAgent.post(this.endpoint);
 
-    request.set('Content-Type', 'application/json');
-    request.set('Authorization', `Bearer ${this.apiToken}`);
-    request.send({
-      model: 'gpt-3.5-turbo',
-      messages: [
-        {
-          role: 'user',
-          content: question
-        }
-      ]
-    });
+      request.set('Content-Type', 'application/json');
+      request.set('Authorization', `Bearer ${this.apiToken}`);
+      request.send({
+        model: 'gpt-3.5-turbo',
+        messages: [
+          {
+            role: 'user',
+            content: question
+          }
+        ]
+      });
 
-    const response = await request;
+      const response = await request;
 
-    return String(response.body.choices[0].message.content);
+      return String(response.body.choices[0].message.content);
+
+    } catch (exception) {
+      console.error("ChatGPT: Some question could not be answered");
+      console.error(exception);
+    }
   }
 }
 

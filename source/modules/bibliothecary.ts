@@ -48,11 +48,16 @@ class Bibliothecary {
   parsedBookshelf: Bookshelf;
 
   constructor(bookshelfFilePath: string) {
-    const bookshelfFileData = fs.readFileSync(bookshelfFilePath, 'utf-8');
-    this.parsedBookshelf = yaml.load(bookshelfFileData) as Bookshelf;
+    try {
+      const bookshelfFileData = fs.readFileSync(bookshelfFilePath, 'utf-8');
+      this.parsedBookshelf = yaml.load(bookshelfFileData) as Bookshelf;
+    } catch (exception) {
+      console.error("Bibliothecary: Could not be created");
+      console.error(exception);
+    }
   }
   
-  createEmbeds() {
+  public createEmbeds(): Array<DiscordEmbed> {
     let embeds: Array<DiscordEmbed> = [];
 
     this.parsedBookshelf.sections.forEach((section) => {
@@ -107,7 +112,7 @@ class Bibliothecary {
     return embeds;
   }
 
-  private makeSubjectMarkdownLine(subjectName: string, PDF?: string, HTML?: string) {
+  private makeSubjectMarkdownLine(subjectName: string, PDF?: string, HTML?: string): string {
     let subjectAssets = [];
 
     if (PDF) subjectAssets.push(`[PDF](${PDF})`);
